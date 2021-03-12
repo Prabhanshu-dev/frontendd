@@ -13,6 +13,8 @@ import {Component} from 'react';
 import { useState, useEffect } from "react";
 
 export function SignupForm(props) {
+
+  
   const { switchToSignin } = useContext(AccountContext);
   this.state={text:"",email:"",number:"",number1:"",password:"",password1:""};
      
